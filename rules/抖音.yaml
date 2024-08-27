@@ -1,3 +1,4 @@
+# fork
 # 针对部分网站显示IP归属地的分流规则
 # anti-ip-attribution rules.yaml
 # https://github.com/lwd-temp/anti-ip-attribution
@@ -29,7 +30,7 @@ config:
     # Update #32
     # Append
     # issue#33#issuecomment-1421094069
-    # - DOMAIN-KEYWORD,-normal-
+    - DOMAIN-KEYWORD,-normal-
     - DOMAIN-SUFFIX,zijieapi.com,DIRECT
     - DOMAIN-SUFFIX,ecombdapi.com,DIRECT
     - DOMAIN-KEYWORD,-normal-hl
