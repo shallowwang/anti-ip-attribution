@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution parser.yaml v0.3.1 eaa77dcf1cc57b04f4a595e261d65dbbf5898f86
+# anti-ip-attribution parser.yaml v0.3.1 8fc1cec33dff7b849896701adc72437a9da4a91a
 # https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash for Windows的配置文件预处理功能，详见https://docs.cfw.lbyczf.com/contents/parser.html
 parsers:
@@ -74,11 +74,7 @@ parsers:
     - "DOMAIN-KEYWORD,-normal-,IP\u5F52\u5C5E\u5730"
     - DOMAIN-SUFFIX,zijieapi.com,DIRECT
     - DOMAIN-SUFFIX,ecombdapi.com,DIRECT
-    - "DOMAIN-KEYWORD,-normal-hl,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-c-hl,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-KEYWORD,-core-c-hl,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-lf,IP\u5F52\u5C5E\u5730"
-    - "DOMAIN-KEYWORD,-normal-c-lf,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-KEYWORD,-core-c-lf,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,sso.douyin.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,www.douyin.com,IP\u5F52\u5C5E\u5730"
