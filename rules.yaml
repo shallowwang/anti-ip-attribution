@@ -1,4 +1,3 @@
-# fork
 # 针对部分网站显示IP归属地的分流规则
 # anti-ip-attribution rules.yaml
 # https://github.com/lwd-temp/anti-ip-attribution
@@ -132,11 +131,7 @@ config:
     - DOMAIN-KEYWORD,-normal-
     - DOMAIN-SUFFIX,zijieapi.com,DIRECT
     - DOMAIN-SUFFIX,ecombdapi.com,DIRECT
-    - DOMAIN-KEYWORD,-normal-hl
-    - DOMAIN-KEYWORD,-normal-c-hl
     - DOMAIN-KEYWORD,-core-c-hl
-    - DOMAIN-KEYWORD,-normal-lf
-    - DOMAIN-KEYWORD,-normal-c-lf
     - DOMAIN-KEYWORD,-core-c-lf
     # - DOMAIN-KEYWORD,-core-
     # - DOMAIN-KEYWORD,-misc-
